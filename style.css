@@ -34,14 +34,6 @@ input {
 input:focus {
   outline: none;
 }
-input:hover {
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.251);
-  scale: 1.01;
-}
-input:active {
-  transform: scaleX(0.99);
-}
-
 button {
   background-color: rgb(145, 145, 145);
   font-family: sans-serif;
@@ -56,12 +48,10 @@ button:hover {
   scale: 1.05;
   background-color: blueviolet;
   color: beige;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.268);
 }
 button:active {
   scale: 1.03;
   transition: ease;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.405);
 }
 
 /* transition
